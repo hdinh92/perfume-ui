@@ -1,0 +1,106 @@
+/* YOUR CUSTOM STYLES */
+a:hover {
+  text-decoration: none !important;
+  color: #f44336 !important;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+#MiCarousel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 38px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -13px rgba(0, 0, 0, 0.75);
+}
+.carousel-img {
+  background-color: #000;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  opacity: 0.8;
+}
+
+.div-r {
+  padding: 40px;
+}
+
+.carousel-title {
+  font-size: 80px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.carousel-indicators {
+  bottom: 0px !important;
+}
+.carousel .carousel-indicators li {
+  max-width: 20px !important;
+  margin-top: 30px;
+}
+.carousel-pagination {
+  background-color: #000 !important;
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 100%;
+  position: relative;
+  bottom: -50px;
+  opacity: 0.5;
+}
+
+.carousel-pagination.active {
+  opacity: 1;
+}
+
+.carousel-controls {
+  display: none;
+}
+.active-menu {
+  color: #f44336 !important;
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+}
+.banner-section {
+  background-image: url("http://leutrai.vn/wp-content/uploads/2018/04/Banner-gt-800x300.jpg");
+  background-size: cover;
+  height: 380px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  background-position: 0;
+}
+.post-title-block {
+  padding: 100px 0;
+}
+.post-title-block h1 {
+  color: #fff;
+  font-size: 85px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.post-title-block li {
+  font-size: 20px;
+  color: #fff;
+}
+.image-block {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+blockquote p{
+    padding-top:0 !important;
+    padding-bottom: 0 !important;
+}
+.side-nav .search-form .form-control{
+  color : #F44336!important;
+  /* font-weight: bold !important; */
+}

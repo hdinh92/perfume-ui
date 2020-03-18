@@ -1,0 +1,12 @@
+export const FETCH_PRODUCTS = 'FETCH_PRODUCTS'
+export const PRODUCT_DETAIL ='PRODUCT_DETAIL'
+
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const ON_CLEAR_CART = 'ON_CLEAR_CART'
+export const DELETE_PRODUCT_IN_CART = 'DELETE_PRODUCT_IN_CART'
+export const UPDATE_PRODUCT_IN_CART = 'UPDATE_PRODUCT_IN_CART'
+
+export const FETCH_NEWS = 'FETCH_NEWS'
+export const SEARCH ='SEARCH'
+
+export const CHECKOUT = 'CHECKOUT'
